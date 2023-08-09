@@ -1,0 +1,42 @@
+:root {
+  --light-text-color: #f7fbfb;
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.hero {
+  background-image: url(../images/hero_desk1920.jpg);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-grow: 1;
+}
+
+.hero-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--light-text-color);
+}
+
+.hero-after-title {
+  font-size: 16px;
+  color: var(--light-text-color);
+}

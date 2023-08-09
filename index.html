@@ -15,12 +15,134 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header-container">
-        <button class="mob-menu" type="button">1</button>
+        <button class="mob-menu" type="button">
+          <svg class="menu-icon" width="28" height="15">
+            <use href="./images/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">TOURS TO THE CARPATHIANS FROM LVIV</h1>
+          <p class="hero-after-title">
+            Journeys to the very heart of the Carpathians for those who want a
+            real reboot
+          </p>
+          <button class="hero-button">BOOK A TOUR</button>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about-content">
+          <h2 class="about-title">About us</h2>
+          <p class="about-text">
+            Travel is our life. We have been organizing tours to the Carpathians
+            since 2007 and have never been bored for a single day. The
+            Carpathians are many interesting and unexplored places that are
+            worth visiting and showing them to others. Coming to the Carpathians
+            will make you forget about the polluted, noisy world and enjoy
+            untouched nature. From picturesque forests to clean rivers and lakes
+            and Carpathian streams between the mountains, which offer magical
+            landscapes and allow you to forget about all problems and
+            unnecessary thoughts.
+          </p>
+        </div>
+      </section>
+      <section class="our-advantages">
+        <div class="advantages">
+          <h2 class="advantages-title">Our advantages</h2>
+          <div class="advantages-content">
+            <ul class="advantages-list">
+              <li class="advantages-item">author's tours</li>
+              <li class="advantages-item">іndividual approach</li>
+              <li class="advantages-item">affordable prices</li>
+              <li class="advantages-item">comfortable transfer</li>
+              <li class="advantages-item">professional guides</li>
+              <li class="advantages-item">accommodation in hotels from 3+ *</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="tours">
+        <div class="tours-contant">
+          <h2 class="tours-title">Upcoming tours</h2>
+          <div class="tours-information">
+            <h3>Ascent to Hoverla</h3>
+            <p>From UAH 4,499/person</p>
+          </div>
+          <button>MORE DETAILS</button>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="reviews-contant">
+          <h2 class="reviews-title">Reviews</h2>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="gallery-content">
+          <h2>Gallery</h2>
+        </div>
+      </section>
+      <section class="question">
+        <div class="question-content">
+          <h2 class="question-title">Do you have any questions?</h2>
+          <p class="question-text">
+            You can leave your questions here and our manager will call you back
+            within 10 minutes
+          </p>
+          <div class="question-list">
+            <input
+              type="text"
+              class="question-input"
+              placeholder="Your name*"
+            />
+            <input
+              type="text"
+              class="question-input"
+              placeholder="Phone number*"
+            />
+            <input
+              type="text"
+              class="question-input"
+              placeholder="What would you like to know?"
+            />
+          </div>
+          <button class="question-button" type="button">CALL ME</button>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-content">
+          <h2 class="footer-title">Contacts</h2>
+          <address>
+            <ul>
+              <li>
+                <svg width="28" height="15">
+                  <use href="./images/sprite.svg#icon-place"></use>
+                </svg>
+                Lviv, st Dorosheko, 44 k
+              </li>
+              <li>
+                <svg width="28" height="15">
+                  <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+                +38 (097) 162 -67-90
+              </li>
+              <li>
+                <svg width="28" height="15">
+                  <use href="./images/sprite.svg#icon-email"></use>
+                </svg>
+                mandrykarpaty@gmail.com
+              </li>
+            </ul>
+          </address>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
