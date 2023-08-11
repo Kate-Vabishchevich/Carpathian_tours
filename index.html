@@ -11,6 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -18,8 +21,38 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="back">
     <header class="header">
       <div class="container header-container">
+        <a href="">
+          <svg class="icon-logo" width="36" height="36">
+            <use href="./images/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <nav class="navigation">
+            <ul class="navigation-list list">
+                <li class="navigation-item item">
+                    <a href="" class="navigation-link link">About us</a>
+                </li>
+
+                <li class="navigation-item item">
+                    <a href="" class="navigation-link link">Tours</a>
+                </li>
+
+                <li class="navigation-item item">
+                    <a href="" class="navigation-link link">Reviews</a>
+                </li>
+
+                <li class="navigation-item item">
+                    <a href="" class="navigation-link link">Gallery</a>
+                </li>
+
+                <li class="navigation-item item">
+                    <a href="" class="navigation-link link">Contacts</a>
+                </li>
+            </ul>
+            
+        </nav>
         <button class="mob-menu" type="button">
           <svg class="menu-icon" width="28" height="15">
             <use href="./images/sprite.svg#icon-menu"></use>
@@ -29,7 +62,7 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero-content">
+        <div class="container hero-content">
           <h1 class="hero-title">TOURS TO THE CARPATHIANS FROM LVIV</h1>
           <p class="hero-after-title">
             Journeys to the very heart of the Carpathians for those who want a
@@ -38,6 +71,7 @@
           <button class="hero-button">BOOK A TOUR</button>
         </div>
       </section>
+      </div>
       <section class="about">
         <div class="about-content">
           <h2 class="about-title">About us</h2>
