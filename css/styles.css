@@ -1,6 +1,8 @@
 :root {
   --light-text-color: #f7fbfb;
   --accent-color: #5b86a1;
+  --dark: #202321;
+  --primary-text: #1b1d1b;
 }
 
 .container {

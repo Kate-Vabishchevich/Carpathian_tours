@@ -1,0 +1,20 @@
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--primary-text);
+
+    @media screen and (min-width: 768px) {
+        font-size: 52px;
+        line-height: 63px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 68px;
+        line-height: 83px;
+    }
+}
